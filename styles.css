@@ -6,41 +6,44 @@
 body {
     font-family: 'Outfit', sans-serif;
     background-color: hsl(212, 45%, 89%);
-    font-size: .9375rem;
-}
-
-.container {
-    min-height: 100vh; 
+    font-size: 1rem;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.card {
+main {
     background-color: hsl(0, 0%, 100%);
     padding: 17px;
     border-radius: 16px;
     text-align: center;
     margin: 0 1.4em;
     max-width: 280px;
+    
+    
 }
 
-.card img {
+main img {
     max-width: 100%;
     border-radius: 13px;
 }
 
-.text {
-    padding: 22px 10px;
-}
-
-.text h2 {
+h2 {
     color: hsl(218, 44%, 22%);
     padding-bottom: 15px;
     font-weight: 700;
 }
 
-.text p {
+p {
     color: hsl(220, 15%, 55%);
     font-weight: 400;
+    padding-bottom: 15px;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  
 }
